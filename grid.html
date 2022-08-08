@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+        list-style: none;
+        }
+        li{
+        width: 600px;
+        display: grid;
+        grid-template-areas: 'years position' 
+                            '. corp'
+                            'hr hr'
+                                ;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #E1E1E1;
+        }
+        .years{
+        grid-area: years;
+        }
+        .position{
+        grid-area: position;
+        }
+        .corp{
+        grid-area: corp;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Experiencia</h1>
+    <ul>
+      <li>
+        <span class="years">2016 - 2018</span>
+        <span class="position">Visual designer</span>
+        <span class="corp">Wizeline</span>
+      </li>
+      <li>
+        <span class="years">2018 - 2019</span>
+        <span class="position">Product designer</span>
+        <span class="corp">Microsoft</span>
+        </li>
+      <li style="border:none">
+        <span class="years">2019 - 2021</span>
+        <span class="position">UI Engineer</span>
+        <span class="corp">Google</span>
+      </li>  
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+
